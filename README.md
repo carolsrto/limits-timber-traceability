@@ -1,10 +1,10 @@
 
 # Repository Overview
 
-This repository is under development pending review. It contains the latest reproduceability tools for the study *Mapping Brazilian timber origins and the limits to traceability*. Data utilized in the reproduction of this study is available on Zenodo at [https://doi.org/10.5281/zenodo.15672070](https://doi.org/10.5281/zenodo.15672070).
+This repository contains the latest reproduceability tools for the study *Mapping the limits to timber traceability at origin: The case of Pará, Brazil*. Data required in the reproduction of this study is available on Zenodo at [https://doi.org/10.5281/zenodo.15672070](https://doi.org/10.5281/zenodo.15672070).
 
 ## Citation
-Franca, C.S.S., Persson, U.M., Cardoso, D.R.R.S., Damasceno, C., Ward, R.S., Souza-Jr, C.M. (2025) Mapping Brazilian timber origins and the limits to traceability. (forthcoming, access SSRN sneak peak here: [http://dx.doi.org/10.2139/ssrn.5116957](http://dx.doi.org/10.2139/ssrn.5116957))
+Franca, C.S.S., Persson, U.M., Cardoso, D.R.R.S., Damasceno, C., Ward, R.S., Souza-Jr, C.M. (2025) Mapping the limits to timber traceability at origin: The case of Pará, Brazil (forthcoming, access SSRN sneak peak here: [http://dx.doi.org/10.2139/ssrn.5116957](http://dx.doi.org/10.2139/ssrn.5116957))
 
 ## Repository Content 
 
@@ -18,11 +18,11 @@ Data
 - documentation of sources and aquisition
 - data is not part of the repository 
 - a *processed* (intermediary) dataset is available via Zenodo 
-- other data are available from authors upon request 
+- other data can be made available from authors upon request 
 
 ## Instructions for results reproduction
 
-For a *last step* reproduction of study numbers and figures use the script "10_limits_timber_traceability.R". Data to be used with this script can be found in the file "limits-traceability-v1.0.Rdata". 
+For a *last step* reproduction of study numbers and figures use the script "10_limits_timber_traceability.R". Data to be used with this script can be found in the file "limits-traceability-v1.1.Rdata". 
 
 For the full reproduction of the study (from data collection, cleaning and pre-processing of data objects) you can follow the repository structure below. Not all scripts as listed below may have been added at this time, but can be made available upon request.
 
