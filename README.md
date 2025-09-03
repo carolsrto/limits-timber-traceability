@@ -22,7 +22,7 @@ Data
 
 ## Instructions for results reproduction
 
-For a *last step* reproduction of study numbers and figures use the script "10_limits_timber_traceability.R". Data to be used with this script can be found in the file "limits-traceability-v1.1.Rdata". 
+For a *last step* reproduction of study numbers and figures use the script "10_limits_timber_traceability.R". Data to be used with this script can be found in the file "limits-traceability-v1.1.Rdata". 5656
 
 For the full reproduction of the study (from data collection, cleaning and pre-processing of data objects) you can follow the repository structure below. Not all scripts as listed below may have been added at this time, but can be made available upon request.
 
