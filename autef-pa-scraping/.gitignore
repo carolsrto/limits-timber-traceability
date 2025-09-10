@@ -1,0 +1,8 @@
+.idea
+venv/
+pdfs/raw/.gitkeep
+pdfs/html/**
+html_v1/*.html
+pdfs/done/**
+done_v1/*
+src/__pycache__/
