@@ -4,7 +4,7 @@
 This repository contains the latest reproduceability tools for the study *Mapping the limits to timber traceability at origin: The case of Pará, Brazil*. Data required in the reproduction of this study is available on Zenodo at [https://doi.org/10.5281/zenodo.15672070](https://doi.org/10.5281/zenodo.15672070).
 
 ## Citation
-Franca, C.S.S., Persson, U.M., Cardoso, D.R.R.S., Damasceno, C., Ward, R.S., Souza-Jr, C.M. (2025) Mapping the limits to timber traceability at origin: The case of Pará, Brazil (forthcoming, access SSRN sneak peak here: [http://dx.doi.org/10.1016/j.oneear.2025.101447](http://dx.doi.org/10.1016/j.oneear.2025.101447))
+Franca, C.S.S., Persson, U.M., Cardoso, D.R.R.S., Damasceno, C., Ward, R.S., Souza-Jr, C.M. (2025) Mapping the limits to timber traceability at origin: The case of Pará, Brazil [http://dx.doi.org/10.1016/j.oneear.2025.101447](http://dx.doi.org/10.1016/j.oneear.2025.101447))
 
 ## Repository Content 
 
