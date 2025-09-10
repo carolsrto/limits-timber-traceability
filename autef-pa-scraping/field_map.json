@@ -1,0 +1,355 @@
+{
+  "models": [
+    {
+      "filename": "cover",
+      "modelname": "autef_filename",
+      "type": "legend",
+      "fields": [
+        {
+          "csvHeader": "autef_number",
+          "searchString": "Autorização para Exploração Florestal",
+          "siblingIndex": 1
+        },
+        {
+          "csvHeader": "filename"
+        }
+      ]
+    },
+    {
+      "filename": "cover",
+      "modelname": "autef",
+      "fields": [
+        {
+          "csvHeader": "autef_status",
+          "type": "child",
+          "searchString": "TextContainer1",
+          "siblingIndex": 1
+        },
+        {
+          "csvHeader": "autef_number",
+          "searchString": "Autorização para Exploração Florestal",
+          "siblingIndex": 1
+        },
+        {
+          "csvHeader": "valid_date",
+          "searchString": "VALIDADE ATÉ",
+          "siblingIndex": 0
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "protocol_date",
+          "searchString": "Data do protocolo"
+        },
+        {
+          "csvHeader": "car",
+          "searchString": "Cadastro Ambiental Rural Nº"
+        },
+        {
+          "csvHeader": "lar",
+          "searchString": "Licença Atividade Rural Nº"
+        },
+        {
+          "csvHeader": "responsavel_tecnico",
+          "searchString": "Engenheiro florestal"
+        },
+        {
+          "csvHeader": "crea",
+          "searchString": "CREA"
+        },
+        {
+          "csvHeader": "property_owner",
+          "searchString": "PROPRIETÁRIO"
+        },
+        {
+          "csvHeader": "cpf_cnpj_proprietor",
+          "searchString": "PROPRIETÁRIO",
+          "siblingIndex": 3
+        },
+        {
+          "csvHeader": "property_holder",
+          "searchString": "DETENTOR"
+        },
+        {
+          "csvHeader": "cpf_cnpj_holder",
+          "searchString": "DETENTOR",
+          "siblingIndex": 3
+        },
+        {
+          "csvHeader": "property_name",
+          "searchString": "IMÓVEL"
+        },
+        {
+          "csvHeader": "mun",
+          "searchString": "MUNICÍPIO"
+        },
+        {
+          "csvHeader": "coord_geo",
+          "searchString": "COORDENADAS"
+        },
+        {
+          "csvHeader": "porte",
+          "searchString": "PORTE"
+        },
+        {
+          "csvHeader": "property_total_area",
+          "searchString": "Área Total da propriedade"
+        },
+        {
+          "csvHeader": "arl",
+          "searchString": "Área de Reserva Legal"
+        },
+        {
+          "csvHeader": "mfs_total_area",
+          "searchString": "Área Total do MFS"
+        },
+        {
+          "csvHeader": "area_antropizada",
+          "searchString": "Área Antropizada"
+        },
+        {
+          "csvHeader": "upa_app",
+          "searchString": "APP da UPA"
+        },
+        {
+          "csvHeader": "area_authorized",
+          "searchString": "Área Autorizada"
+        },
+        {
+          "csvHeader": "typology_authorized",
+          "searchString": "TIPOLOGIA LICENCIADA"
+        },
+        {
+          "csvHeader": "area_liq",
+          "searchString": "ÁREA LÍQUIDA AUTORIZADA"
+        },
+        {
+          "csvHeader": "local_date",
+          "searchString": "LOCAL E DATA"
+        }
+      ]
+    },
+    {
+      "modelname": "quant_auth",
+      "filename": "cover",
+      "type": "table",
+      "beforeTableSearchString": "QUANTIFICAÇÃO AUTORIZADA",
+      "afterTableSearchString": "LOCAL E DATA:",
+      "fields": [
+        {
+          "type": "id",
+          "csvHeader": "autef_status",
+          "searchString": "TextContainer1",
+          "siblingIndex": 2
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "product",
+          "searchString": "PRODUTO",
+          "comesAfter": "QUANTIFICAÇÃO AUTORIZADA",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "individuals_num",
+          "searchString": "Indivíduos",
+          "comesAfter": "QUANTIFICAÇÃO AUTORIZADA",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_ha",
+          "searchString": "Qtd. por ha",
+          "comesAfter": "QUANTIFICAÇÃO AUTORIZADA",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_total",
+          "searchString": "Qtd. total",
+          "comesAfter": "QUANTIFICAÇÃO AUTORIZADA",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "unit",
+          "searchString": "UNIDADE",
+          "comesAfter": "QUANTIFICAÇÃO AUTORIZADA",
+          "isColumn": true
+        }
+      ]
+    },
+    {
+      "modelname": "residuals",
+      "filename": "page003",
+      "type": "table",
+      "beforeTableSearchString": "QUANTIFICAÇÃO DE RESÍDUOS FLORESTAIS",
+      "afterTableSearchString": "TOTAL DE VOLUME AUTORIZADO",
+      "fields": [
+        {
+          "type": "id",
+          "csvHeader": "autef_status",
+          "searchString": "TextContainer3",
+          "siblingIndex": 2
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "scientific_name",
+          "searchString": "NOME CIENTÍFICO",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "popular_name",
+          "searchString": "NOME POPULAR",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_ha",
+          "searchString": "por ha",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_total",
+          "searchString": "TOTAL",
+          "isColumn": true
+        }
+      ]
+    },
+    {
+      "modelname": "natives",
+      "filename": "page003",
+      "type": "table",
+      "beforeTableSearchString": "QUANTIFICAÇÃO DE TORAS DE MADEIRA NATIVA",
+      "afterTableSearchString": "TOTAL DE VOLUME AUTORIZADO",
+      "fields": [
+        {
+          "type": "id",
+          "csvHeader": "autef_status",
+          "searchString": "TextContainer3",
+          "siblingIndex": 2
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "scientific_name",
+          "searchString": "NOME CIENTÍFICO",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "popular_name",
+          "searchString": "NOME POPULAR",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "individuos",
+          "searchString": "Indivíduos",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_ha",
+          "searchString": "por ha",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_total",
+          "searchString": "TOTAL",
+          "isColumn": true
+        }
+      ]
+    },
+    {
+      "modelname": "planted",
+      "filename": "page003",
+      "type": "table",
+      "beforeTableSearchString": "QUANTIFICAÇÃO DE Toras de Madeira Produzida",
+      "afterTableSearchString": "TOTAL DE VOLUME AUTORIZADO",
+      "fields": [
+        {
+          "type": "id",
+          "csvHeader": "autef_status",
+          "searchString": "TextContainer3",
+          "siblingIndex": 2
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "scientific_name",
+          "searchString": "NOME CIENTÍFICO",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "popular_name",
+          "searchString": "NOME POPULAR",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "individuos",
+          "searchString": "Indivíduos",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_ha",
+          "searchString": "por ha",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_total",
+          "searchString": "TOTAL",
+          "isColumn": true
+        }
+      ]
+    },
+    {
+      "modelname": "shortlog",
+      "filename": "page003",
+      "type": "table",
+      "beforeTableSearchString": "QUANTIFICAÇÃO DE Toretes",
+      "afterTableSearchString": "TOTAL DE VOLUME AUTORIZADO",
+      "fields": [
+        {
+          "type": "id",
+          "csvHeader": "autef_status",
+          "searchString": "TextContainer3",
+          "siblingIndex": 2
+        },
+        {
+          "csvHeader": "protocol_num",
+          "searchString": "Protocolo Nº"
+        },
+        {
+          "csvHeader": "scientific_name",
+          "searchString": "NOME CIENTÍFICO",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "popular_name",
+          "searchString": "NOME POPULAR",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "individuos",
+          "searchString": "Indivíduos",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_ha",
+          "searchString": "por ha",
+          "isColumn": true
+        },
+        {
+          "csvHeader": "qtd_total",
+          "searchString": "TOTAL",
+          "isColumn": true
+        }
+      ]
+    }
+  ]
+}
